@@ -1,0 +1,14 @@
+<taglib>
+    <tlib-version>1</tlib-version>
+    <jsp-version>2</jsp-version>
+    <short-name>Tag Lib Date</short-name>
+    <uri>http://indi.project/tags</uri>
+
+    <tag>
+
+        <name>todaysDate</name>
+        <tag-class>customTagLib.DateTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+</taglib>
