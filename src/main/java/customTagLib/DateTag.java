@@ -8,8 +8,12 @@ import java.io.IOException;
 import java.time.LocalDate;
 
 
+/**
+ * The type Date tag.
+ */
 public class DateTag extends SimpleTagSupport {
     @Override
+
     public void doTag() throws JspException, IOException {
         super.doTag();
         LocalDate today = LocalDate.now();
