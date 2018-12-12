@@ -18,6 +18,7 @@ public class DateTag extends SimpleTagSupport {
         super.doTag();
         LocalDate today = LocalDate.now();
         JspWriter out = getJspContext().getOut();
-        out.print(today);
+       String outputString = "<input type=\"date\" id=\"date\" name=\"date\" default=\"" + today + "\">";
+        out.print(outputString);
     }
 }
