@@ -1,1 +1,1 @@
-custom tag <todaysDate/> displays todays date 
+<todaysDate/> tag name displays current days date 
